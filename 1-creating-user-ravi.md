@@ -1,19 +1,4 @@
-This is a great idea. Storing a structured summary is the best way to master these Linux and Geopolitical concepts. Here is a recap of our discussion, organized for quick revision.
-
----
-
-## 1. Geopolitical Analyst: Jiang Xueqin
-
-**The Topic:** A Chinese-Canadian educator and analyst known for "Predictive History."
-
-* **Who is he?** A former Deputy Principal at elite Chinese high schools and a viral YouTuber.
-* **His Methodology:** Uses historical cycles (like the fall of Rome or Athens) to predict modern events.
-* **The "Pessimism":** He is often "doomer" about the West, predicting the decline of the U.S. dollar, the end of "fake work" (bureaucracy), and potential military overextension (e.g., Iran).
-* **On China:** While less vocal about current politics, he is highly critical of the Chinese education system, calling it a factory for "mid-level bureaucrats" that kills creativity.
-
----
-
-## 2. Unix User Management: The `ravi` Case Study
+## 1. Unix User Management: The `ravi` Case Study
 
 **The Goal:** Create a user named `ravi` with a **non-interactive shell** on a server.
 
@@ -60,18 +45,3 @@ If `ravi` can't type a command, the system must trigger it.
 
 * **Manual Background:**
 * *Example:* `sudo -u ravi ./script.sh &` (The `&` puts it in the background).
-
-
-
----
-
-## 5. Troubleshooting: AWS EKS & Permissions
-
-**The Issue:** Your `eksctl` command failed with `AccessDenied` (`iam:PassRole`).
-
-* **The Cause:** In lab environments (like KodeKloud), you are restricted. `eksctl` tries to create/pass IAM roles dynamically, which the lab security policy blocks.
-* **The Fix:** You must use the **AWS Console** and select pre-existing roles (like `eksClusterRole`) instead of letting `eksctl` create them for you.
-
----
-
-**Would you like me to generate a "Cheat Sheet" of these specific Linux commands in a code block so you can copy-paste them into a notes file?**
