@@ -9,6 +9,13 @@ sudo useradd -s /sbin/nologin ravi
 
 ```
 
+
+```bash
+sudo cat /etc/passwd
+
+```
+
+
 * **`-s /sbin/nologin`**: This prevents a human from logging into a command prompt as `ravi`.
 
 ### Why create a user who can't login?
